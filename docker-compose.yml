@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  plex-overlay:
+    container_name: plex-overlay
+    build: .
+    restart: unless-stopped
+
+    ports:
+      - "8080:8080"   # Webhook listener
+      - "8081:8081"   # Static image server
+
+    environment:
+      PLEX_HOST: http://192.168.1.2:32400       # Replace with your Plex server IP
+      PLEX_TOKEN: i8xtN7g9U_sQ9qazGbcc           # Required
+      CANVAS_WIDTH: 1080                         # Portrait width
+      CANVAS_HEIGHT: 1920                        # Portrait height
+      WEBHOOK_PORT: 8080
+      STATIC_PORT: 8081
