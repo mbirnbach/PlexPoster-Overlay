@@ -1,5 +1,9 @@
 # Plex‑Overlay (Now Playing Poster Display)
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/mbirnbach/plex-overlay?style=flat-square)](https://hub.docker.com/r/mbirnbach/plex-overlay)
+[![Docker Image Version](https://img.shields.io/docker/v/mbirnbach/plex-overlay?sort=semver&style=flat-square)](https://hub.docker.com/r/mbirnbach/plex-overlay)
+
+
 A simple self‑contained Docker app that listens to Plex Media Server webhooks and displays the currently playing movie or TV‑show poster (letterboxed/pillarboxed) on a public URL. Ideal for overlays, dashboards (e.g., DAKboard), and smart‑home displays.
 
 It runs as a single container exposing two ports: one for the webhook endpoint, one for the static image.
