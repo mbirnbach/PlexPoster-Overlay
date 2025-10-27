@@ -122,7 +122,7 @@ plex-overlay/
 ---
 
 ## 🧪 Example Usage (Portrait Setup)
-- `CANVAS_WIDTH=1080`, `CANVAS_HEIGHT=1920` → perfect for a vertical hallway screen.
+- `CANVAS_WIDTH=1080`, `CANVAS_HEIGHT=1920` → perfect for a vertical screen.
 - Set DAKboard image widget update interval to ~30 s.
 - Use the static image URL for overlay on your dashboard.
 
@@ -145,7 +145,7 @@ Make sure you update any tests (if added) and run `go fmt` before committing.
 ---
 
 ## 📄 License
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [GPL-3.0 License](LICENSE).  
 Feel free to fork and modify as needed.
 
 ---
